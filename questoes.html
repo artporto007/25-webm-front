@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard de Questões</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h3>Front-End API</h3>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="questoes.html">Questões</a>
+          <a href="usuarios.html">Usuários</a>
+        </nav>
+      </header>
+      <hr />
+      <div class="header-corpo">
+        <h3>Dashboard de Questões</h3>
+        <a class="botao inserir" href="inserir-questao.html">Inserir</a>
+      </div>
+      <div class="corpo">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 5px">ID</th>
+              <th>Enunciado</th>
+              <th>Disciplina</th>
+              <th style="width: 200px">Ações</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-corpo"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="js/questoes.js"></script>
+  </body>
+</html>
